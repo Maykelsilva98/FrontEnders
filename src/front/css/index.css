@@ -1,0 +1,52 @@
+.botao-entrar{
+    display: flex;
+    justify-content: center;
+   background-color: gray;
+   width: 65px;
+}
+
+.imagem-carrossel-um{
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 90vh;
+}
+
+.imagem-carrossel-dois{
+    object-fit: cover;
+    object-position: 0 20%;
+    height: 90vh;
+}
+
+.imagem-carrossel-tres{
+    object-fit: cover;
+    object-position: 0 30%;
+    height: 90vh;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-items: flex-start;
+    height: 90vh;
+    background-color: grey;
+}
+
+.chamada{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+}
+
+.img-apre{
+    width: 600px;
+}
+
+.apre{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
