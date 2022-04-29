@@ -26,7 +26,10 @@ class CadastroController{
             document.querySelector("#cadastro").remove()
             const mensagemConfirmacao = document.createElement("h2")
             mensagemConfirmacao.innerText = "Cadastro realizado com sucesso"
-            document.getElementsByTagName("main")[0].appendChild(mensagemConfirmacao)
+            document.querySelector("#info").appendChild(mensagemConfirmacao)
+            mensagemConfirmacao.style.color = "green"
+            mensagemConfirmacao.style.alignItems = "Center"
+            mensagemConfirmacao.style.marginTop = "100px"
         })
     }
 }
