@@ -1,20 +1,25 @@
 body{
-    background-image: url(/VIVAM/img.jpg);
+    background-image: url(https://previews.123rf.com/images/kran77/kran771609/kran77160900003/62044984-resumen-de-antecedentes-de-la-tecnolog%C3%ADa-ilustraci%C3%B3n-vectorial.jpg);
     background-size: cover;
-}
+    padding: 0;
+    margin: 0;
+    }
 
 .navheader{
     background-color: #081525;
 }
 
-footer{
-    height: 80px;
+.footer{
+    height: 134px;
     width: 100vw;
     display: flex;
+    text-align: center;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #4A6D7C;
+    flex-shrink: 0;
+   
+    
 }
 
 a{
