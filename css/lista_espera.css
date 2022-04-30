@@ -1,31 +1,20 @@
-main{
-    display: flex;
-    flex-direction: column;
-}
-
 .formulario{
     background-color: aqua;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
 }
-form{
-    background-color: aliceblue;
+main{
+    height: 100vh;
+}
+.secao1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#info{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    padding: 10px;
-    border: solid black;
-    border-radius: 10px;
-    margin-right: 100px;
-}
-
-.form1, .form2, .form3, .form{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: aqua;
-    width: 100%;
 }
