@@ -19,22 +19,8 @@ class CadastroController{
             requisicao.send()
         })
     }
-
-    mandaCadastro(){
-        document.querySelector("#btn").addEventListener("click", (event)=>{
-            event.preventDefault()
-            document.querySelector("#cadastro").remove()
-            const mensagemConfirmacao = document.createElement("h2")
-            mensagemConfirmacao.innerText = "Cadastro realizado com sucesso"
-            document.querySelector("#info").appendChild(mensagemConfirmacao)
-            mensagemConfirmacao.style.color = "green"
-            mensagemConfirmacao.style.alignItems = "Center"
-            mensagemConfirmacao.style.marginTop = "100px"
-        })
-    }
 }
 
 
 const cadastro = new CadastroController()
 cadastro.criaEndereco()
-cadastro.mandaCadastro()
